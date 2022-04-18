@@ -59,6 +59,12 @@ ul li
     font-size: 11px;
     color: #F77F08;
 }
+.cols
+{
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: 4%;
+}
 .image img
 {
     border-radius: 50%;
@@ -172,18 +178,15 @@ ul li
 {
     display: flex;
     padding:5% ;
-    /* padding-left: 5%; */
-    /* padding-bottom: 8%; */
 }
 .surgical
 {
-    margin-left: 4%;
     background-color: #FFFFFF;
     padding: 1%;
     width:25% ;
     height: 26vh;
     text-align: left;
-    margin-top: -5%;
+    margin: -5% 0 0 4%;
     font-size: 30px;
 }
 .surgical h2
@@ -196,13 +199,12 @@ ul li
 }
 .part
 {
-    margin-left: 4%;
     background-color: #FFFFFF;
     padding: 1%;
     width:25% ;
     height: 26vh;
     text-align: left;
-    margin-top: -5%;
+    margin: -5% 0 0 4%;
     font-size: 50px;
 
 }
@@ -216,13 +218,12 @@ ul li
 }
 .hostel
 {
-    margin-left: 4%;
     background-color: #FFFFFF;
     padding: 1%;
     width:25% ;
     height: 26vh;
     text-align: left;
-    margin-top: -5%;
+    margin: -5% 0 0 4%;
     font-size: 50px;
     
 }
@@ -237,9 +238,7 @@ ul li
 
 
 .header-2 h1{
-    margin-left: -25%;
-    margin-bottom: 15%;
-    /* margin-bottom: 70%; */ 
+    margin:0 0 15% -25%; 
     font-size: 40px; 
 }
 .sec-2
@@ -264,14 +263,10 @@ ul li
 }
 .conta
 {
-    margin-top: 10%;
+    margin: 10% 0 0 -25%;
     background-color: #1AA0AB;
-    padding-top: 3%;
-    padding-right: 6%;
-    padding-bottom: 3%;
-    padding-left:6% ;
+    padding:3% 6% 3% 6%;
     border-radius: 15px;
-    margin-left: -25%;
 }
 .bestdocs{
     display: flex;
@@ -279,14 +274,12 @@ ul li
 }
 .img2{
     height: 7%;
-    margin-left:5%;
-    margin-top: -4%;
+    margin: -4% 0 0 5%;
 }
 .img3{
     height: 7%;
-    margin-left: -4%;
+    margin:1% 0 0 -4%;
     padding: 20px;
-    margin-top: 1%;
     
 }
 .img1{
@@ -324,8 +317,7 @@ ul li
 .header-3 p
 {
     font-size: 25px;
-    margin-left: 28%;
-    margin-top:2.5% ;
+    margin: 2.5% 0 0 28%;
 }
 .col-3 img
 {
@@ -334,16 +326,11 @@ ul li
 }
 .p1 p1
 {
-    /* margin-rblackight: -2%; */
     margin-bottom: 5%;
-    /* margin-top: 8%; */
 }
 .woman
 {
-    margin-left: 5%;
-    margin-top:5%;
-    margin-bottom: -7%;
-    /* margin-bottom: -2.5%; */
+    margin: 5% 0 -7% 5%;
 }
 
 .ratt
@@ -362,15 +349,15 @@ ul li
 }
 .col-3-2
 {
-    margin-left: 5%;
     background-color: #ffffff;
-    /* padding: 3%; */
-    padding-top: 10%;
-    padding-left: 5%;
-    margin-top: 2.5%;
-    height: 45vh;
+    padding: 10% 0 0 5%;
+    margin: 2.5% 0 0 5%;
+    height: 35vh;
     width: 35%;
-    margin-left: 7%;
+}
+.sent
+{
+    margin-top: -15%;
 }
 .col-3-2 h2
 {
@@ -382,15 +369,11 @@ ul li
 }
 .col-3-1
 {
-    margin-left: 5%;
     background-color: #ffffff;
-    /* padding: 3%; */
-    margin-top: 2.5%;
+    margin: 2.5% 0 0 5%;
     width: 35%;
-    height: 45vh;
-    margin-left: 7%;
-    padding-top: 10%;
-    padding-left: 5%;
+    height: 35vh;
+    padding: 10% 0 0 5%;
 }
 .col-3-1 h2
 {
@@ -400,7 +383,11 @@ ul li
 {
     font-size: 17px;
 }
-
+.docs
+{
+    margin-top: 10%;
+    background-color: #F8FEFF;
+}
 .best-docs
 {
     display: flex;
@@ -411,10 +398,7 @@ ul li
 {
     display: flex;
 }
-.prod
-{
-    margin-left: 10%;
-}
+
 .p1
 {
     margin-left: 10%;
@@ -426,8 +410,7 @@ ul li
 }
 .header-4 p
 {
-    margin-left: 80%;
-    margin-top: -6%;
+    margin: -6% 0 0 80%;
     font-size: 20px;
     color: #3BACB6;
 }
@@ -437,25 +420,21 @@ ul li
 }  
 .img2 img
 {
-padding: 50px;
-height: 60vh;
-
+    padding: 50px;
+    height: 60vh;
+    margin-top: 8%;
 }  
+.name
+{
+    margin-top: -9%;
+}
 .img3 img
 {
     height: 60vh;
     margin-left: 50%;
     background-color: #1d5d64;
 }
-.img3 h4
-{
-    margin-left: 50%;
-}
-.img p
-{
-    margin-left: 50%;
-    /* font-size: 40px; */
-}
+
 .header-5 
 {
     background-color: #E9FAFC;
@@ -469,7 +448,6 @@ height: 60vh;
     font-size: 40px;
     margin-left: 30%;
     padding-top: 5%;
-    /* margin-top: 30%; */
 }
 .header-5 p
 {
@@ -477,12 +455,9 @@ height: 60vh;
     background-color: #ffffff;
     height: 20%;
     width: 60%;
-    margin-left: 20%;
-    margin-top:5%;
+    margin:5% 0 0 20%;
     border-radius: 10px;
-    padding-top: 3.5%;
-    padding-left: 3%;
-    /* text-align: center; */
+    padding: 3.5% 0 0 3%;
 }
 #sub
 {
@@ -494,8 +469,7 @@ height: 60vh;
 }
 .contacts
 {
-    margin-left: 15%;
-    margin-top: 5%;
+    margin: 5% 0 0 15%;
 }
 .contacts p
 {
@@ -503,8 +477,7 @@ height: 60vh;
 }
 .prod
 {
-    margin-top: 5%;
-    margin-left: 11%;
+    margin: 5% 0 0 11%;
 }
 .prod p
 {
@@ -512,8 +485,7 @@ height: 60vh;
 }
 .comm
 {
-    margin-top: 5%;
-    margin-left: 11%;
+    margin: 5% 0 0 11%;
 }
 .comm p
 {
@@ -521,16 +493,11 @@ height: 60vh;
 }
 .about
 {
-    margin-top: 5%;
-    margin-left: 11%;
+    margin: 5% 0 0 9%;
 }
 .about p
 {
     font-size: 15px;
-}
-.media
-{
-    padding: 2;
 }
  
 .quote
