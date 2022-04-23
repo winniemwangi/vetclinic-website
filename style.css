@@ -2,19 +2,26 @@
 {
     background-color: #E9FAFC;
 }
-ul li
+
+nav
+{
+    float: right;
+}
+nav li
 {
     list-style: none;
     display: inline;
-    float: right;
     padding: 10px;
     font-size: 15px;
+    font-size: 25px;
+
 }
 .statement
 {
-    font-size: 10px;
+    font-size: 25px;
     margin-left: 5%;
 }
+
 .statement h1
 {
     padding: 1% 0 0 2%;
@@ -55,7 +62,7 @@ ul li
 }
 .statement p
 {
-    font-size: 11px;
+    font-size: 25px;
     color: #F77F08;
 }
 .cols
@@ -88,7 +95,7 @@ ul li
 }
 #par
 {
-    margin: -5% 0 0 70%;
+    margin: -5% 0 0 61%;
     font-size: 20px; 
 }
 
@@ -235,7 +242,7 @@ ul li
 .vet-img img
 {
     border-radius: 35px;
-    margin-left: 5%;
+    margin-left: 23%;
 }
 .para p
 {
@@ -288,7 +295,6 @@ ul li
 {
     font-size: 15px;
 }
-
 .header-3
 {
     display: flex;
@@ -302,7 +308,7 @@ ul li
 .header-3 p
 {
     font-size: 25px;
-    margin: 2.5% 0 0 28%;
+    margin: 2.5% 0 0 20%;
 }
 .col-3 img
 {
@@ -336,7 +342,7 @@ ul li
 {
     background-color: #ffffff;
     padding: 10% 0 0 5%;
-    margin: 2.5% 0 0 5%;
+    margin: 2.5% 0 0 3%;
     height: 35vh;
     width: 35%;
 }
@@ -355,7 +361,7 @@ ul li
 .col-3-1
 {
     background-color: #ffffff;
-    margin: 2.5% 0 0 5%;
+    margin: 2.5% 0 0 8%;
     width: 35%;
     height: 35vh;
     padding: 10% 0 0 5%;
@@ -478,7 +484,7 @@ ul li
 }
 .about
 {
-    margin: 5% 0 0 9%;
+    margin: 5% 0 0 8%;
 }
 .about p
 {
@@ -487,7 +493,9 @@ ul li
  
 .quote
 {
-    color: #1AA0AB;
+    color: #E9FAFC;
+    font-size: 45px;
+    margin-top: -25%;
 }
 
     
