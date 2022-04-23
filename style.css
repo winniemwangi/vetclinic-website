@@ -12,7 +12,6 @@ nav li
     list-style: none;
     display: inline;
     padding: 10px;
-    font-size: 15px;
     font-size: 25px;
 
 }
@@ -309,6 +308,10 @@ nav li
 {
     font-size: 25px;
     margin: 2.5% 0 0 20%;
+}
+.comment
+{
+    color: #1d5d64;
 }
 .col-3 img
 {
