@@ -411,23 +411,33 @@ nav li
 .img1 img
 {
     height: 60vh;
-}  
+    margin-left: -10%;
+} 
+.img1 p
+{
+    margin-left: -9%;
+} 
 .img2 img
 {
     padding: 50px;
     height: 60vh;
     margin-top: 8%;
+    margin-left: -13%;
 }  
 .name
 {
     margin-top: -9%;
-    margin-left: 10%;
+    margin-left: -10%;
 }
 .img3 img
 {
     height: 60vh;
-    margin-left: 50%;
+    margin-left: 20%;
     background-color: #1d5d64;
+}
+.img3 p
+{
+    margin-left: 20%;
 }
 
 .header-5 
@@ -472,7 +482,7 @@ nav li
 }
 .prod
 {
-    margin: 5% 0 0 11%;
+    margin: 5% 0 0 7%;
 }
 .prod p
 {
@@ -480,7 +490,7 @@ nav li
 }
 .comm
 {
-    margin: 5% 0 0 11%;
+    margin: 5% 0 0 9%;
 }
 .comm p
 {
@@ -488,7 +498,7 @@ nav li
 }
 .about
 {
-    margin: 5% 0 0 8%;
+    margin: 5% 0 0 10%;
 }
 .about p
 {
